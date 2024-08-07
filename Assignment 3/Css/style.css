@@ -1,0 +1,77 @@
+body {  /**Main body **/
+    font-family:"Impact", fantasy;  /**Font type for all page **/
+    background-color: black;
+
+}
+/** Poster img Class style and centered with text align**/
+.img {
+    text-align:-webkit-center;
+}
+/**  Class movie style terminator 2 and positioned**/
+.movie{
+
+    font-weight: normal;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 199%;
+    left: 53%;
+    letter-spacing: 50px;
+    font-size: 55px;
+
+}
+/**  Class part2 style judgment day and positioned**/
+.part2 {
+    font-weight: normal;
+    position: absolute;
+    letter-spacing: 10px;
+    font-size: 35px;
+    transform: translate(-50%, -50%);
+    top: 210%;
+    left: 50%;
+    color: #f5f3e0;
+}
+/** Using other font, the font size is smaller and put down on the image with margin left and top with negative value **/
+.poster{
+    font-family: "High Tower Text", fantasy;
+    font-size: 22px;
+    color: #f5f3e0;
+    text-align: center;
+    width: 800px;
+    margin-left: 350px;
+    margin-top: -150px;
+}
+
+/**adding some color to h1 and h2 **/
+h1 {  /**terminator 2 title **/
+    color: red;
+
+}
+
+
+h2 {  /**judgment day subtitle **/
+    color: aliceblue;
+
+}
+
+/**Size of Poster IMG**/
+
+/**P style use along and mixed with h1 to h6**/
+p {
+    color: aliceblue;
+    font-size: 22px;
+    line-height: 1.1;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+a{  /**The link movie trailer requested  style**/
+    color: whitesmoke;
+    font-size: 32px;
+    line-height: 1.1;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+/** lower case spam on p, to make those parts targeted smaller effect **/
+.lowercase{
+    font-size: 19px;
+}
